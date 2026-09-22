@@ -1,4 +1,3 @@
-import pytest
 from context_router.router import ContextRouter
 
 

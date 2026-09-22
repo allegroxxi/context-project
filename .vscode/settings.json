@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "/Users/christopherfleck/Projects/Context/venv/bin/python",
+  "python.analysis.extraPaths": [
+    "./src"
+  ]
+}
