@@ -17,3 +17,4 @@ Implement token-efficient, dynamic context routing to optimize LLM performance b
 - **Communication:** Use precise, structured formats (Markdown tables/JSON) and maintain professional tone.
 - **Inquiry:** Use neutral, non-leading questions for clarification.
 - **Hierarchy:** Highlight critical info (blockers, root causes) prominently.
+- **Adversarial Analysis:** Perform adversarial analysis (identifying edge cases, potential failures, or logical vulnerabilities) with every change.
