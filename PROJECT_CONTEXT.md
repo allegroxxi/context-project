@@ -7,6 +7,10 @@ Implement token-efficient, dynamic context routing to optimize LLM performance b
 - **Rule:** Always use the absolute path to the `Context/venv/` interpreter/pip.
 - **Verify:** Run `ls -F Context/` to confirm `venv/` exists before Python tasks.
 
+## 📜 Standards & Documentation
+- **Coding Standards:** [CODING_STANDARDS.md](../docs/CODING_STANDARDS.md)
+- **Implementation Roadmap:** [technical_proposal.md](../docs/technical_proposal.md)
+
 ## 🤖 Agent Instructions
 - **Imports:** On `ModuleNotFoundError`, check `Context/venv/bin/pip list` instead of guessing.
 - **Anti-Loop:** If a command fails twice with the same error, stop, diagnose (e.g., `sys.path`), and report. No third attempts.
