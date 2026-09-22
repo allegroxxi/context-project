@@ -2,6 +2,7 @@ class ContextRouter:
     """
     A core class to handle dynamic context routing.
     """
+
     def __init__(self):
         pass
 
