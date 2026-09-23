@@ -13,10 +13,11 @@ authors = [
 ]
 dependencies = [
     "pydantic>=2.0.0",
+    "returns>=0.29.0",
 ]
 
 [tool.setuptools.packages.find]
-where = "src"
+where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
